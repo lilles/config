@@ -1,0 +1,22 @@
+{
+	"added_words":
+	[
+		"Inline",
+		"inline",
+		"Preformatted",
+		"recalc"
+	],
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		72,
+		80,
+		120
+	],
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}

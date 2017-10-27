@@ -1,0 +1,8 @@
+{
+  "startup_duration": 15,
+  "result_file": "/tmp/trace-invalidation.json",
+  "trace_config": {
+    "included_categories": ["disabled-by-default-devtools.timeline.invalidationTracking"],
+    "excluded_categories": ["*"]
+  }
+}

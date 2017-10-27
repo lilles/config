@@ -1,0 +1,17 @@
+# Variables needed to build and run Chromium and Blink.
+
+export PATH=$PATH:~/dev/depot_tools
+export GYP_GENERATORS=ninja
+export GYP_CHROMIUM_NO_ACTION=1
+
+export CC_wrapper=`which ccache`
+export CXX_wrapper=`which ccache`
+
+export ICECC_PREFIX=/usr
+export CCACHE_COMPRESS=1
+export CCACHE_DIR=~/ccache
+export CCACHE_CPP2=yes
+export CCACHE_SLOPPINESS=time_macros
+
+export CHROME_DEVEL_SANDBOX=/usr/local/sbin/chrome-devel-sandbox
+
