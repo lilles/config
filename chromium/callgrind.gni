@@ -1,0 +1,6 @@
+# For generating symbols for callgrind
+enable_profiling=true
+
+# callgrind is not able to resolve symbols in executable linked with ldd
+use_lld=false
+
